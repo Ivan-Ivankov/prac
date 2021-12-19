@@ -8,6 +8,7 @@
 body {
     background: url(../img/back.jpg) no-repeat black;
     min-width: 1850px;
+    max-width: 1920px;
 }
 
 /* HEADER */
