@@ -24,7 +24,7 @@ header {
 
 h1 {
     font-size: 46px;
-    cursor: pointer;
+    cursor: default;
 }
 
 /* navigation */
@@ -122,88 +122,9 @@ label:active {
 
 /* info */
 .info {
-    margin-left: 264px;
+    margin-left: 290px;
     font-size: 20px;
     padding: 20px 0;  
-}
-
-/* MAIN */
-
-main {
-    display: flex;
-}
-
-/* left-side */
-.left-side {
-    max-width: 870px;
-    margin: 200px 80px;
-}
-
-.text {
-    font-family: 'Segoe UI';
-    font-size: 48px;
-    font-weight: bold;
-}
-
-/* main-info */
-
-.main-info {
-    margin-top: 20px;
-    display: flex;
-}
-
-/* button */
-
-.sub {
-    background: rgb(255,151,0);
-    background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(255,207,0,1) 100%);
-    border: none;
-    padding: 5px 10px 10px 10px;
-    margin: 0 25px;
-    font-size: 26px;
-    font-weight: bold;
-    border-radius: 20px;
-}
-
-.sub:hover {
-    background: orange;
-}
-
-.sub:active {
-    background: rgb(121, 78, 0);
-}
-
-/* address */
-
-.address {
-    font-size: 18px;
-    padding-left: 25px;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
-    margin: 7px 0;
-    max-width: 300px;
-}
-
-/* time */
-
-.time {
-    font-size: 18px;
-    padding-left: 25px;
-    margin: 7px 0;
-}
-
-/* right-side */
-
-/* img */
-
-.img {
-    margin: 100px 0 0 120px;
-}
-
-.img img {
-    width: 600px;
-    height: 600px;
-    object-fit: cover;
 }
 
 /* bottom */
@@ -226,7 +147,7 @@ main {
 /* icons */
 .icons {
     margin-top: 50px;
-    margin-left: 800px;
+    margin-left: 830px;
 }
 
 .icons img {
