@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background: url(../img/back.jpg) no-repeat black;
+    min-width: 1850px;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    padding: 25px 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid orange;
+}
+
+/* name */
+
+h1 {
+    font-size: 46px;
+    cursor: pointer;
+}
+
+/* navigation */
+.nav {
+    margin-left: 200px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 15px 10px;
+}
+
+.nav ul li a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+
+.nav ul li a:active {
+    color: rgb(121, 78, 0);
+}
+
+/* numbers */
+.numbers {
+    display: flex;
+    font-size: 20px;
+    margin: 20px 0;
+    margin-left: 450px;
+    min-width: 200px;
+}
+
+.arrow {
+    display: block;
+    margin: 7px 10px;
+}
+
+.up {
+    height: 5px;
+    width: 5px;
+    border-top: 2px solid orange;
+    border-right: 2px solid orange;
+    transform: rotate(-45deg);
+}
+
+.down {
+    height: 5px;
+    width: 5px;
+    border-bottom: 2px solid orange;
+    border-left: 2px solid orange;
+    transform: rotate(-45deg);
+}
+
+/* hidden numbers */
+.more {
+    margin: 29px 0 0 27px;
+    position: absolute;
+    max-height: 0px;
+    transition: all 0.5s ease; 
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0 20px 0 0;
+}
+
+.more ul li {
+    border-bottom: 1px solid orange;
+    border-left: 1px solid orange;
+}
+
+label {
+    display: flex;
+    cursor: pointer;
+    border-bottom: 1px solid orange;
+}
+
+label:active {
+    color: orange;
+}
+
+#arr {
+    display: none;
+}
+
+#arr:checked ~ .more {
+    max-height: 90px;
+}
+
+/* info */
+.info {
+    margin-left: 264px;
+    font-size: 20px;
+    padding: 20px 0;  
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+}
+
+/* left-side */
+.left-side {
+    max-width: 870px;
+    margin: 200px 80px;
+}
+
+.text {
+    font-family: 'Segoe UI';
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* main-info */
+
+.main-info {
+    margin-top: 20px;
+    display: flex;
+}
+
+/* button */
+
+.sub {
+    background: rgb(255,151,0);
+    background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(255,207,0,1) 100%);
+    border: none;
+    padding: 5px 10px 10px 10px;
+    margin: 0 25px;
+    font-size: 26px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.sub:hover {
+    background: orange;
+}
+
+.sub:active {
+    background: rgb(121, 78, 0);
+}
+
+/* address */
+
+.address {
+    font-size: 18px;
+    padding-left: 25px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    margin: 7px 0;
+    max-width: 300px;
+}
+
+/* time */
+
+.time {
+    font-size: 18px;
+    padding-left: 25px;
+    margin: 7px 0;
+}
+
+/* right-side */
+
+/* img */
+
+.img {
+    margin: 100px 0 0 120px;
+}
+
+.img img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* bottom */
+
+/* numbers */
+.bottom {
+    display: flex;
+    min-height: 115px;
+    background: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid orange;
+}
+
+.bottom li {
+    margin-left: 110px;
+    text-align: center;
+    margin-top: 50px;
+    list-style: none;
+}
+
+/* icons */
+.icons {
+    margin-top: 50px;
+    margin-left: 800px;
+}
+
+.icons img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
