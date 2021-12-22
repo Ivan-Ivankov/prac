@@ -29,41 +29,54 @@ h1 {
 }
 
 /* navigation */
-.nav {
-    margin-left: 7%;
+.AvtoMast {
+	margin-right:auto;
 }
-
-.nav ul {
+.menu {
     display: flex;
     list-style: none;
+	width:100%;
 }
-
-.nav ul li {
-    padding: 15px 10px;
+.nav {
+	display: flex;
+	margin-right:auto;
 }
-
-.nav ul li a {
+.nav div {
+	list-style: none;
+	padding: 15px;
+	width: 100px;
+	text-align: center;
+	position: center;
+}
+.nav a {
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
 }
 
-.nav ul li a:hover {
+.nav a:hover {
     color: orange;
     border-bottom: 1px solid orange;
 }
 
-.nav ul li a:active {
+.nav a:active {
     color: rgb(121, 78, 0);
 }
 
 /* numbers */
 .numbers {
-    display: flex;
     font-size: 20px;
-    margin: 20px 0;
-    margin-left: 28%;
-    min-width: 200px;
+   	padding:20px;
+	min-width:200px;
+	margin-left:auto;
+}
+
+/* info */
+.info {
+    font-size: 20px;
+    padding: 20px; 
+	text-align: center;
+	margin-left:auto;
 }
 
 .arrow {
@@ -89,13 +102,14 @@ h1 {
 
 /* hidden numbers */
 .more {
-    margin: 29px 0 0 27px;
+	width:250px;
     position: absolute;
+    margin-left: 26px;
     max-height: 0px;
     transition: all 0.5s ease; 
     overflow: hidden;
     background: rgba(0, 0, 0, 0.5);
-    border-radius: 0 20px 0 0;
+    border-radius: 0 5px 0 0;
 }
 
 .more ul li {
@@ -121,35 +135,32 @@ label:active {
     max-height: 90px;
 }
 
-/* info */
-.info {
-    margin-left: 16%;
-    font-size: 20px;
-    padding: 20px 0;  
-}
-
-/* bottom */
+/* FOOTER */
 
 /* numbers */
-.bottom {
+footer {
     display: flex;
     min-height: 115px;
     background: rgba(0, 0, 0, 0.8);
     border-top: 1px solid orange;
 }
 
-.bottom li {
-    margin-left: 5%;
-    text-align: center;
-    margin-top: 50px;
-    list-style: none;
+.num {
+    display: flex;
+}
+
+.num div {
+    margin-left: auto;
+    margin: 50px;
+    min-width: 198px;
 }
 
 /* icons */
 .icons {
     display: flex;
-    margin-top: 50px;
-    margin-left: 46%;
+    margin-left: auto;
+    margin-top: 35px;
+    margin: 35px 45px 0 auto;
 }
 
 .icons img {
