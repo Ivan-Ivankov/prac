@@ -7,9 +7,8 @@
 
 body {
     background: url(../img/back.jpg) no-repeat black;
-    height: 100%;
-    background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 /* HEADER */
@@ -66,9 +65,9 @@ h1 {
 /* numbers */
 .numbers {
     font-size: 20px;
-   	padding:20px;
-	min-width:200px;
-	margin-left:auto;
+   	padding: 20px;
+	min-width: 200px;
+	margin-left: auto;
 }
 
 /* info */
@@ -136,14 +135,14 @@ label:active {
 }
 
 /* FOOTER */
-
-/* numbers */
 footer {
     display: flex;
-    min-height: 115px;
+    max-height: 115px;
     background: rgba(0, 0, 0, 0.8);
     border-top: 1px solid orange;
 }
+
+/* numbers */
 
 .num {
     display: flex;

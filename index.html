@@ -9,21 +9,32 @@
     <link rel="stylesheet" href="css/main-index.css">
 </head>
 <body>
+    <div class="hidden">
+        <div class="in">
+            <span class="close">&times;</span>
+            <div class="hidden-content">
+                <div class="reg">
+                    Запись на ремонт
+                </div>
+                <div class="form">
+                    Введите ваше имя:
+                    <div><input type="text" class="form-name" maxlength="16" placeholder="Ваше имя"></div>
+                    Введите номер телефона:
+                    <div><input type="text" class="form-num" placeholder="Ваш номер телефона"></div>
+                    <div><input type="submit" value="Записаться" class="form-btn"></div>
+                </div>
+            </div>
+        </div>
+    </div>
     <header> 
 	<div class="menu">
         <div class="AvtoMast"> 
             <h1>АвтоМаст</h1>
         </div>
         <div class="nav">
-		
 			<div><a href="#">Главная</a></div>
 			<div><a href="links/services.html">Услуги</a></div>
 			<div><a href="links/photos.html">Галерея</a></div>
-            <!--<ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="links/services.html">Услуги</a></li>
-                <li><a href="links/photos.html">Галерея</a></li>
-            </ul>-->
         </div>
         <div class="numbers">
                 <input type="checkbox" id="arr">
@@ -51,6 +62,7 @@
         </div>
 	</div>
     </header>
+    
     <main>
         <div class="left-side">
             <div class="text">
@@ -69,8 +81,9 @@
             </div>
         </div>
         <div class="img">
-            <img src="img/motor.png" alt="">
+            <img src="./img/motor.png" alt="">
         </div>
+        
     </main>
     <footer>
         <div class="num">
@@ -78,13 +91,11 @@
             <div>+7 (999) 555-44-33 - Маша</div>
             <div>+7 (999) 222-11-00 - Антон</div>
         </div>
-        <!-- <li>+7 (999) 888-77-66 - Миша</li>
-        <li>+7 (999) 555-44-33 - Маша</li>
-        <li>+7 (999) 222-11-00 - Антон</li> -->
         <div class="icons">
-            <div><a href="https://www.instagram.com"><img src="../img/inst.png" alt=""></a></div>
-            <div><a href="https://vk.com"><img src="../img/vk.png" alt=""></a></div>
+            <div><a href="https://www.instagram.com"><img src="./img/inst.png" alt=""></a></div>
+            <div><a href="https://vk.com"><img src="./img/vk.png" alt=""></a></div>
         </div>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
