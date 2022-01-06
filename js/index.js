@@ -1,7 +1,7 @@
-const button = document.querySelector(".sub");
-const hidden = document.querySelector(".hidden");
-const closes = document.querySelector(".close");
-const arrow = document.querySelector(".arrow")
+const button = document.getElementById("sub");
+const hidden = document.getElementById("hidden");
+const closes = document.getElementById("close");
+const arrow = document.getElementById("arrow")
 
 button.onclick = function() {
     hidden.style.display = "block";
