@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background: url(../img/back.jpg) no-repeat black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* HEADER */
+
+header {
+    /* position: absolute; */
+    display: flex;
+    padding: 25px 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid orange;
+}
+
+/* name */
+
+h1 {
+    font-size: 46px;
+    cursor: default;
+}
+
+/* navigation */
+.AvtoMast {
+	margin-right:auto;
+}
+.menu {
+    display: flex;
+    list-style: none;
+	width:100%;
+}
+.nav {
+	display: flex;
+	margin-right:auto;
+}
+.nav div {
+	list-style: none;
+	padding: 15px;
+	/* width: 100px; */
+	text-align: center;
+	position: center;
+}
+.nav a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+
+.nav a:active {
+    color: rgb(121, 78, 0);
+}
+
+/* numbers */
+.numbers {
+    font-size: 20px;
+   	padding: 20px;
+	min-width: 200px;
+	margin-left: auto;
+}
+
+/* info */
+.info {
+    font-size: 20px;
+    padding: 20px; 
+	text-align: center;
+	margin-left:auto;
+}
+
+.arrow {
+    display: block;
+    margin: 7px 10px;
+}
+
+.up {
+    height: 5px;
+    width: 5px;
+    border-top: 2px solid orange;
+    border-right: 2px solid orange;
+    transform: rotate(-45deg);
+}
+
+.down {
+    height: 5px;
+    width: 5px;
+    border-bottom: 2px solid orange;
+    border-left: 2px solid orange;
+    transform: rotate(-45deg);
+}
+
+/* hidden numbers */
+.more {
+	width:250px;
+    position: absolute;
+    margin-left: 26px;
+    max-height: 0px;
+    transition: all 0.5s ease; 
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0 5px 0 0;
+}
+
+.more ul li {
+    border-bottom: 1px solid orange;
+    border-left: 1px solid orange;
+}
+
+label {
+    display: flex;
+    cursor: pointer;
+    border-bottom: 1px solid orange;
+}
+
+label:active {
+    color: orange;
+}
+
+#arr {
+    display: none;
+}
+
+#arr:checked ~ .more {
+    max-height: 90px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    max-height: auto;
+    background: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid orange;
+}
+
+/* numbers */
+
+.numb {
+    display: none;
+}
+
+.num {
+    display: flex;
+}
+
+.num div {
+    margin-left: auto;
+    padding: 47px;
+    min-width: 198px;
+}
+
+/* icons */
+.icons {
+    display: flex;
+    margin-left: auto;
+    margin-top: 35px;
+    margin: 35px 45px 0 auto;
+}
+
+.icons img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
