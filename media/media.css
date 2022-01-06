@@ -1,0 +1,54 @@
+@media (max-width: 320px) {
+    header {
+        margin: 0;
+        padding: 0;
+    }
+    main {
+        display: block;
+        margin: 0;
+        min-width: auto;
+    }
+    footer {
+        display: block;
+    }
+
+    .AvtoMast {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 3%;
+    }
+    .nav div {
+        padding: 0;
+    }
+    .menu {
+        display: block;
+    }
+    .numbers {
+        display: none;
+    }
+    .info {
+        display: none;
+    }
+
+    
+    .numb {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .num {
+        display: block;
+    }
+    .num div {
+        padding: 5px 0;
+        text-align: center;
+    }
+    .icons {
+        display: none;
+    }
+}
