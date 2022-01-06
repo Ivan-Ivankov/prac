@@ -1,6 +1,6 @@
 const button = document.querySelector(".sub");
 const hidden = document.querySelector(".hidden");
-const close = document.querySelector(".close");
+const closes = document.querySelector(".close");
 const arrow = document.querySelector(".arrow")
 
 button.onclick = function() {
@@ -8,7 +8,7 @@ button.onclick = function() {
     arrow.style.display = "none";
 }
 
-close.onclick = function() {
+closes.onclick = function() {
     hidden.style.display = "none";
     arrow.style.display = "block";
 }
