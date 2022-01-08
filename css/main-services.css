@@ -1,13 +1,20 @@
 /* MAIN */
 
 main {
-    margin: 20px;
+    margin: 10px 2%;
+    background-color: rgba(15, 15, 15, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255, 166, 0, 0.8);
+    border: 1px solid orange;
+    min-width: 735px;
 }
 
 h2 {
     font-size: 36px;
     text-align: center;
     margin-top: 46px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid orange;
 }
 
 .services {
