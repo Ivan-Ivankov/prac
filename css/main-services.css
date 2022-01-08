@@ -1,0 +1,52 @@
+/* MAIN */
+
+main {
+    margin: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 46px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px 10% 72px 10%;
+}
+
+.services div {
+    margin: 10px 10px;
+}
+
+.services div button {
+    width: 154px;
+    height: 154px;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+
+.services div > div {
+    margin-top: 10px;
+    max-width: 150px;
+    text-align: center;
+}
+
+.services div img {
+    height: 150px;
+    width: 150px;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+.services div img:hover {
+    /* -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2); */
+    transform: scale(1.2);
+}
+
+.services div img:active {
+    transform: scale(0.95)
+}
