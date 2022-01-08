@@ -7,9 +7,58 @@
     <title>АвтоМаст</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/main-services.css">
+    <link rel="stylesheet" href="../css/services-hidden.css">
     <link rel="stylesheet" href="../media/media.css">
 </head>
 <body>
+
+    <!-- Hidden -->
+
+    <div class="hidden" id="hidden">
+        <div class="in">
+            <span class="close" id="close">&times;</span>
+            <div class="hidden-content">
+                <div class="reg">
+                    Запись на ремонт
+                </div>
+                <div class="form">
+                    Введите ваше имя:
+                    <div><input type="text" class="form-name" maxlength="16" placeholder="Ваше имя"></div>
+                    Введите номер телефона:
+                    <div><input type="text" class="form-num" placeholder="Ваш номер телефона"></div>
+                    <div><input type="submit" value="Записаться" class="form-btn"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hidden1" id="hidden1">
+        <div class="in1">
+            <span class="close1" id="close1">&times;</span>
+            <div class="hidden-content1">
+                <div class="up1" id="head">
+                    Замена направляющих клапанов и самих клапанов
+                </div>
+                <div class="description" id="middle">
+                    Производится частичная или полная замена направляющий клапанов и\или самих клапанов. <br>
+                    Замена осуществляется за счёт заказчика(покупка деталей и последующая их установка). <br>
+                </div>
+                <div class="ps1" id="under">
+                Стоимость услуги: много денег(1). <br>
+                Приблизительное время работ: много минут(1). <br>
+                Всё будет сделано качественно и без проблем. <br>
+                </div>
+                <input type="button" class="sub" id="sub" value="Записаться">
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
     <header> 
         <div class="AvtoMast"> 
             <h1>АвтоМаст</h1>
@@ -22,7 +71,7 @@
         <div class="numbers">
                 <input type="checkbox" id="arr">
                 <label for="arr" id="open">
-                <div class="arrow">
+                <div class="arrow" id="arrow">
                     <div class="up">
                         
                     </div>
@@ -120,6 +169,6 @@
             <div><a href="https://vk.com"><img src="../img/vk.png" alt=""></a></div>
         </div>
     </footer>
-        
+    <script src="../js/services.js"></script>
 </body>
 </html>
