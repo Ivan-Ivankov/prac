@@ -18,32 +18,31 @@ h2 {
 }
 
 .services div {
-    margin: 10px 10px;
-}
+    margin: 0 10px;
+    font-weight: bold;
+    text-align: center;
+} 
 
 .services div button {
-    width: 154px;
-    height: 154px;
+    border: none;
+    background: gray;
+    border-radius: 12px;
     border: 2px solid gray;
-    border-radius: 15px;
+    height: 169px;
 }
 
 .services div > div {
-    margin-top: 10px;
-    max-width: 150px;
-    text-align: center;
+    max-width: 165px;
 }
 
 .services div img {
-    height: 150px;
-    width: 150px;
+    height: 165px;
+    width: 165px;
     transition: 0.3s;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .services div img:hover {
-    /* -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2); */
     transform: scale(1.2);
 }
 

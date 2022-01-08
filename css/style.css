@@ -41,17 +41,20 @@ h1 {
 	display: flex;
 	margin-right:auto;
 }
+
 .nav div {
 	list-style: none;
 	padding: 15px;
-	/* width: 100px; */
 	text-align: center;
 	position: center;
+    
 }
+
 .nav a {
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
+
 }
 
 .nav a:hover {
@@ -193,6 +196,8 @@ footer {
     text-align: center;
     box-shadow: 0 0 20px rgba(255, 166, 0, 0.8);
     padding-bottom: 10%;
+    border: 1px solid orange;
+    border-radius: 20px;
 }
 
 .close {

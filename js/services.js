@@ -1,8 +1,8 @@
 const button = document.getElementById("sub");
 const hidden = document.getElementById("hidden");
-const hidden1 = document.getElementById("hidden1");
+const hiddenService = document.getElementById("hidden-service");
 const closes = document.getElementById("close");
-const closes1 = document.getElementById("close1");
+const closeService = document.getElementById("close-service");
 const arr = document.querySelectorAll("button");
 const head = document.getElementById("head");
 const middle = document.getElementById("middle");
@@ -37,27 +37,27 @@ const arrDesk = [
     {
         head: "Список будет пополняться...",
         middle: "Я не знать что сюда можно добавить, так что не стукайте. Если бы были какие то источники, то тут что то находилось.",
-        under: "Тут тоже пустота, так как я не знаю сколько может стоить ничего",
+        under: "Тут тоже пустота, так как я не знаю сколько может стоить ничего.",
     }
 ]
 
 button.onclick = function() {
-    hidden1.style.display = "none";
+    hiddenService.style.display = "none";
     hidden.style.display = "block";
 }
 
 closes.onclick = function() {
-    hidden1.style.display = "block";
+    hiddenService.style.display = "block";
     hidden.style.display = "none";
 }
 
-closes1.onclick = function() {
-    hidden1.style.display = "none";
+closeService.onclick = function() {
+    hiddenService.style.display = "none";
 }
 
 for (let i = 0; i < arr.length; i++) {
     arr[i].onclick = function() {
-        hidden1.style.display = "block";
+        hiddenService.style.display = "block";
         if(i > 5) {
             head.innerHTML = arrDesk[5].head;
             middle.innerHTML = arrDesk[5].middle;

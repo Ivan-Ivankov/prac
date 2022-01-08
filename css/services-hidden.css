@@ -1,4 +1,4 @@
-.hidden1 {
+.hidden-service {
     display: none;
     position: fixed;
     height: 100%;
@@ -7,17 +7,18 @@
     z-index: 2;
 }
 
-.in1 {
+.in-service {
     margin: 5% auto;
     width: 60%;
     background-color: rgb(15, 15, 15);
     border-radius: 20px;
     text-align: center;
     box-shadow: 0 0 20px rgba(255, 166, 0, 0.8);
-    padding-bottom: 5%;
+    padding-bottom: 2%;
+    border: 1px solid orange;
 }
 
-.close1 {
+.close-service {
     color: rgb(110, 110, 110);
     margin-right: 16px;
     float: right;
@@ -25,21 +26,22 @@
     cursor: pointer;
 }
 
-.up1 {
+.head {
     padding: 30px 5%;
     text-align: center;
     font-weight: bold;
     font-size: 34px;
+    border-bottom: 2px solid orange;
+    border-radius: 20px 20px 0 0;
 }
 
-.description {
-    border-top: 2px solid orange;
+.middle {
     padding: 10px 5%;
     font-size: 30px;
     text-align: center;
 }
 
-.ps1 {
+.under {
     text-align: left;
     border-top: 2px solid orange;
     padding-top: 30px;
