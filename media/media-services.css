@@ -1,0 +1,99 @@
+@media (max-width: 1024px) {
+    .middle {
+        font-size: 20px;
+    }
+    .under {
+        font-size: 14px;
+    }
+    .sub {
+        padding: 5px 10px 10px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .head {
+        font-size: 24px;
+    }
+    .middle {
+        font-size: 16px;
+    }
+    .under {
+        margin-top: 5px;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    .in-service {
+        width: 80%;
+    }
+    .close-service {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 425px) {
+    .services div {
+        font-size: 14px;
+    }
+    .services div button {
+        height: 124px;
+    }
+    .services div img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .services div > div {
+        max-width: 124px;
+        margin: 10px auto;
+
+    }
+    
+    h2 {
+        font-size: 24px;
+        margin-top: 26px;
+        padding-bottom: 26px;
+    }
+
+    .head {
+        font-size: 18px;
+    }
+    .middle {
+        font-size: 12px;
+    }
+    .under {
+        margin-top: 5px;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+
+    .close-service {
+        font-size: 18px;
+    }
+
+    .sub {
+        font-size: 18px;
+        padding: 5px 10px 10px 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .services div button {
+        height: 104px;
+    }
+    .services div img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .services div > div {
+        max-width: 104px;
+        margin: 10px auto;
+
+    }
+}
+
+@media (max-width: 320px) {
+    .services div {
+        font-size: 10px;
+    }
+}

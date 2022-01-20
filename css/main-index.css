@@ -2,7 +2,6 @@
 
 main {
     min-height: auto;
-	min-width: 1160px;
 	display:flex;
     justify-content: space-between;
     margin: 0 10% 0 5%;
@@ -17,6 +16,7 @@ main {
     font-family: 'Segoe UI';
     font-size: 48px;
     font-weight: bold;
+    max-width: 870px;
 }
 
 /* main-info */

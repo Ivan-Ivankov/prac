@@ -4,44 +4,42 @@ const photo = document.getElementById("photo");
 const desc = document.getElementById("desc");
 const imgs = document.querySelectorAll(".img");
 
-
 const arr = [
     {
-    photo: '../img/no-logo.jpg',
-    desc: 'Отсутствие картинки.'
+        photo: '../img/no-logo.jpg',
+        desc: 'Отсутствие картинки.'
     },
     {
-    photo: '../img/mot1.jpg',
-    desc: 'Тут есть мотор.'
+        photo: '../img/mot1.jpg',
+        desc: 'Тут есть мотор.'
     },
     {
-    photo: '../img/mot2.jpg',
-    desc: 'Красивый моторчик.'
+        photo: '../img/mot2.jpg',
+        desc: 'Красивый моторчик.'
     },
     {
-    photo: '../img/mot3.jpg',
-    desc: 'Красный прикольный моторчик.'
+        photo: '../img/mot3.jpg',
+        desc: 'Красный прикольный моторчик.'
     },
     {
-    photo: '../img/mot4.jpg',
-    desc: 'Много всякого...'
+        photo: '../img/mot4.jpg',
+        desc: 'Много всякого...'
     },
     {
-    photo: '../img/mot5.jpg',
-    desc: 'ОЧень красиво.'
+        photo: '../img/mot5.jpg',
+        desc: 'ОЧень красиво.'
     },
     {
-    photo: '../img/mot6.jpg',
-    desc: 'Как он сюда попал?'
+        photo: '../img/mot6.jpg',
+        desc: 'Как он сюда попал?'
     },
     {
-    photo: '../img/mot7.jpg',
-    desc: 'Будто бы из стекла.'
+        photo: '../img/mot7.jpg',
+        desc: 'Будто бы из стекла.'
     },
 ];
 
 const all = arr.length;
-
 let currentItem = 0;
 
 prev.onclick = function() {
@@ -76,5 +74,6 @@ for (let r = 0; r < imgs.length; r++) {
     imgs[r].onclick = function() {
         photo.src = arr[r].photo;
         desc.innerHTML = arr[r].desc;
+        currentItem = r;
     }
 }

@@ -31,7 +31,7 @@ const arrDesk = [
     },
     {
         head: "Замена сальников распределительного и коленчатого вала",
-        middle: "Да да. Даже в моторе есть сало. Слава Украине! <br>На деле я не знаю что это за сальники и с чем их едят, но мы их тут тоже меняем. <br>За ваши деньги же конечно.",
+        middle: "Да да. Даже в моторе есть сало. Вот такие дела. <br>На деле я не знаю что это за сальники и с чем их едят, но мы их тут тоже меняем. <br>За ваши деньги же конечно.",
         under: "Стоимость услуги: много денег(5). <br>Приблизительное время работ: много минут(5). <br>Всё будет сделано качественно и без проблем.",
     },
     {
@@ -40,6 +40,22 @@ const arrDesk = [
         under: "Тут тоже пустота, так как я не знаю сколько может стоить ничего.",
     }
 ]
+
+
+for (let i = 0; i < arr.length; i++) {
+    arr[i].onclick = function() {
+        hiddenService.style.display = "block";
+        if(i > 5) {
+            head.innerHTML = arrDesk[5].head;
+            middle.innerHTML = arrDesk[5].middle;
+            under.innerHTML = arrDesk[5].under;
+        } else {
+            head.innerHTML = arrDesk[i].head;
+            middle.innerHTML = arrDesk[i].middle;
+            under.innerHTML = arrDesk[i].under;
+        }
+    }
+}
 
 button.onclick = function() {
     hiddenService.style.display = "none";
@@ -53,19 +69,4 @@ closes.onclick = function() {
 
 closeService.onclick = function() {
     hiddenService.style.display = "none";
-}
-
-for (let i = 0; i < arr.length; i++) {
-    arr[i].onclick = function() {
-        hiddenService.style.display = "block";
-        if(i > 5) {
-            head.innerHTML = arrDesk[5].head;
-            middle.innerHTML = arrDesk[5].middle;
-            under.innerHTML = arrDesk[5].under;
-        } else {
-        head.innerHTML = arrDesk[i].head;
-        middle.innerHTML = arrDesk[i].middle;
-        under.innerHTML = arrDesk[i].under;
-        }
-    }
 }
